@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
   width: 100%;
   padding: 0px 100px;
+  font-family: Epilogue;
 }
 
 .main-intro {
@@ -12,6 +12,45 @@
   text-align: left;
 }
 
+.main-intro .name {
+  font-size: 16px;
+  color: #ef6d58;
+}
+
+.main-intro .txt-1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 900;
+  margin: 24px auto;
+  line-height: 64px;
+}
+
+.main-intro .txt-2 {
+  font-size: 16px;
+  color: #fff;
+  line-height: 32px;
+  margin-bottom: 34px;
+}
+
 .main-images {
   width: 50%;
+  height: 340px;
+  position: relative;
+}
+
+.main-images .bg-oval {
+  background: #32334c;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: calc(50% - 205px);
+}
+
+.main-images .developer {
+  width: 80%;
+  position: absolute;
+  top: 10px;
+  left: 50px;
 }

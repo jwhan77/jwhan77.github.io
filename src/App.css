@@ -36,3 +36,15 @@ section {
 .contact {
   background-color: #28293e;
 }
+
+.button-orange {
+  background-color: #ef6d58;
+  color: #ffffff;
+  font-family: Epilogue;
+  font-weight: bold;
+  font-size: 14px;
+  width: fit-content;
+  padding: 18px 22px;
+  border-radius: 6px;
+  cursor: pointer;
+}
