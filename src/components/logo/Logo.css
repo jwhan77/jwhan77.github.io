@@ -1,0 +1,19 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .polygon-bg {
+  display: flex;
+  align-items: flex-start;
+  background-size: 100% 100%;
+  height: 44px;
+  margin-left: 1px;
+  min-width: 46px;
+}
+
+.logo .polygon {
+  height: 18px;
+  width: 19px;
+  margin: 12.5px 13px;
+}

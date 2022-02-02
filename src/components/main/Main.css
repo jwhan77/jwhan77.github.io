@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  width: 100%;
+  padding: 0px 100px;
+}
+
+.main-intro {
+  width: 50%;
+  text-align: left;
+}
+
+.main-images {
+  width: 50%;
+}

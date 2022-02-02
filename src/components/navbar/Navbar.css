@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 0 40px;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-family: Epilogue;
+}
+
+.navbar .contact-btn {
+  font-family: Epilogue;
+  height: 48px;
+  width: 138px;
+  border-radius: 6px;
+  border: 1px white solid;
+  background-color: #28293e;
+  margin-left: 40px;
+}
+
+.navbar .contact-btn a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
+}
