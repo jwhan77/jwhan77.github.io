@@ -27,7 +27,6 @@ function App() {
 
       const revealElement = () => {
         let reveals = document.querySelectorAll(".reveal");
-        console.log(reveals);
 
         for (let i = 0; i < reveals.length; i++) {
           let windowHeight = window.innerHeight;
