@@ -4,11 +4,14 @@ import locationIcon from "./location.svg";
 import emailIcon from "./email.svg";
 
 import "./Contact.css";
+import Form from "../form/Form";
 
 const Contact = () => {
   return (
     <div className="contact-me">
-      <div className="get-in-touch">Get in touch</div>
+      <div className="get-in-touch">
+        <Form />
+      </div>
       <div className="contact-me-txt">
         <div className="title">CONTACT</div>
         <div className="txt-1">Contact Me</div>

@@ -1,0 +1,104 @@
+form {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 50px;
+  font-family: Epilogue;
+  text-align: left;
+}
+
+form .txt-1 {
+  color: #391400;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+input#email,
+textarea#message {
+  width: calc(100% - 30px);
+  border: 1px #f3d1bf solid;
+  border-radius: 6px;
+  padding: 15px;
+  font-size: 16px;
+  font-family: Epilogue;
+}
+
+input#email:focus,
+textarea#message:focus {
+  outline: none;
+}
+
+input#email {
+  margin-bottom: 15px;
+}
+
+textarea#message {
+  resize: none;
+  margin-bottom: 15px;
+  height: 100px;
+}
+
+input#email::placeholder,
+textarea#message::placeholder {
+  color: #391400;
+  opacity: 0.64;
+  font-family: Epilogue;
+}
+
+input#email:-ms-input-placeholder,
+textarea#message:-ms-input-placeholder {
+  color: #391400;
+  opacity: 0.64;
+  font-family: Epilogue;
+}
+
+input#email::-ms-input-placeholder,
+textarea#message::-ms-input-placeholder {
+  color: #391400;
+  opacity: 0.64;
+  font-family: Epilogue;
+}
+
+form .submit {
+  text-align: right;
+}
+
+form button.button-orange {
+  border: none;
+}
+
+.submitted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Epilogue;
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 20px;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s all ease;
+  position: absolute;
+}
+
+.submitted.active {
+  position: relative;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.submitted img {
+  width: 50%;
+  min-width: 340px;
+  margin-bottom: 50px;
+}
+
+@keyframes slideup {
+  0% {
+    top: 50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
