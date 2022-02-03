@@ -1,0 +1,80 @@
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 100px;
+  font-family: Epilogue;
+}
+
+.about-images {
+  width: 50%;
+}
+
+.about-text {
+  width: 50%;
+  text-align: left;
+}
+
+.about-text .name {
+  font-size: 16px;
+  color: #ef6d58;
+  margin-bottom: 20px;
+}
+
+.about-text .txt {
+  max-width: 470px;
+}
+
+.about-text .txt-1 {
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 64px;
+  color: #391400;
+  margin-bottom: 26px;
+}
+
+.about-text .txt-2 {
+  color: #391400;
+  margin-bottom: 34px;
+}
+
+.about-text .txt-2 p:first-child {
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+
+.about-text .txt-2 p:last-child {
+  font-size: 16px;
+  opacity: 0.66;
+}
+
+.about-sns {
+  display: flex;
+}
+
+.about-sns a {
+  margin-right: 20px;
+}
+
+.sns-oval {
+  width: 48px;
+  height: 48px;
+  background-color: #ef6d58;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sns-oval img {
+  width: 16px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(3deg) brightness(108%)
+    contrast(102%);
+  transition: transform 0.5s;
+}
+
+.sns-oval:hover img {
+  transform: scale(1.3);
+}

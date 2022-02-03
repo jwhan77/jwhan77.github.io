@@ -3,24 +3,29 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const scrollToElement = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className="navbar">
       <nav>
         <ul>
           <li>
-            <a href="#about">About</a>
+            <span onClick={() => scrollToElement("about")}>About</span>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <span onClick={() => scrollToElement("experience")}>
+              Experience
+            </span>
           </li>
           <li>
-            <a href="#work">Work</a>
+            <span onClick={() => scrollToElement("work")}>Work</span>
           </li>
         </ul>
       </nav>
       <div>
         <button className="contact-btn">
-          <a href="#contact">Contact</a>
+          <span onClick={() => scrollToElement("contact")}>Contact</span>
         </button>
       </div>
     </div>

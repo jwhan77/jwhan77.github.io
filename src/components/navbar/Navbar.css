@@ -19,12 +19,12 @@ nav ul li {
   list-style: none;
 }
 
-nav ul li a {
+nav ul li span {
   color: #fff;
   padding: 0 40px;
   font-size: 1.1em;
-  text-decoration: none;
   font-family: Epilogue;
+  cursor: pointer;
 }
 
 .navbar .contact-btn {
@@ -37,9 +37,9 @@ nav ul li a {
   margin-left: 40px;
 }
 
-.navbar .contact-btn a {
-  text-decoration: none;
+.navbar .contact-btn span {
   font-size: 16px;
   font-weight: 800;
   color: white;
+  cursor: pointer;
 }
