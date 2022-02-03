@@ -2,7 +2,10 @@ import React from "react";
 
 import snsData from "../sns/sns.json";
 
-import aboutImg from "./aboutme.svg";
+// import aboutImg from "./aboutme.svg";
+import aboutBg from "./aboutbg.svg";
+import avatar from "./avatar.svg";
+import deskImg from "./desk.svg";
 
 import "./About.css";
 
@@ -11,8 +14,18 @@ const About = () => {
 
   return (
     <div className="about-me">
-      <div className="about-images">
-        <img src={aboutImg} alt="" />
+      <div className="about-images reveal">
+        <div
+          className="about-images-bg"
+          style={{ backgroundImage: `url(${aboutBg})` }}
+        ></div>
+        <div
+          className="desk-img"
+          style={{ backgroundImage: `url(${deskImg})` }}
+        ></div>
+        <div className="avatar-bg">
+          <img src={avatar} alt="" />
+        </div>
       </div>
       <div className="about-text">
         <div className="name">Jungwon Han</div>

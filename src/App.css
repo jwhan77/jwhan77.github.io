@@ -46,3 +46,14 @@ section {
   border-radius: 6px;
   cursor: pointer;
 }
+
+.reveal {
+  transform: translateY(75px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}

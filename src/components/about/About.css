@@ -9,6 +9,50 @@
 
 .about-images {
   width: 50%;
+  position: relative;
+  min-height: 450px;
+}
+
+.about-images-bg {
+  width: 100%;
+  background-size: 100% 100%;
+  margin-left: 1px;
+  min-height: 450px;
+  position: absolute;
+  transition: transform 0.5s;
+}
+
+.about-images:hover .about-images-bg {
+  transform: scale(1.1);
+}
+
+.desk-img {
+  width: 60%;
+  background-size: 100% 100%;
+  min-height: 300px;
+  position: absolute;
+  top: 22%;
+  right: 15%;
+}
+
+.avatar-bg {
+  width: 175px;
+  height: 175px;
+  background-color: #b550f8;
+  border-radius: 50%;
+  position: absolute;
+  left: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-bg img {
+  width: 75%;
+  transition: transform 0.5s;
+}
+
+.about-images:hover .avatar-bg img {
+  transform: rotate(-20deg);
 }
 
 .about-text {

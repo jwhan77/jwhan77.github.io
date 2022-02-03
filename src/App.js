@@ -15,13 +15,34 @@ function App() {
     let header = document.getElementById("header");
     let container = document.getElementById("container");
     container.addEventListener("scroll", () => {
-      let scrollTop = window.pageYOffset || container.scrollTop;
-      if (scrollTop > lastScrollTop) {
-        header.style.top = "-80px";
-      } else {
-        header.style.top = "0";
-      }
-      lastScrollTop = scrollTop;
+      const hideHeader = () => {
+        let scrollTop = window.pageYOffset || container.scrollTop;
+        if (scrollTop > lastScrollTop) {
+          header.style.top = "-80px";
+        } else {
+          header.style.top = "0";
+        }
+        lastScrollTop = scrollTop;
+      };
+
+      const revealElement = () => {
+        let reveals = document.querySelectorAll(".reveal");
+        console.log(reveals);
+
+        for (let i = 0; i < reveals.length; i++) {
+          let windowHeight = window.innerHeight;
+          let elementTop = reveals[i].getBoundingClientRect().top;
+          let elementVisible = 150;
+
+          if (elementTop < windowHeight - elementVisible) {
+            reveals[i].classList.add("active");
+          } else {
+            reveals[i].classList.remove("active");
+          }
+        }
+      };
+      hideHeader();
+      revealElement();
     });
   }, []);
 
