@@ -14,17 +14,17 @@ const Navbar = () => {
             <span onClick={() => scrollToElement("about")}>About</span>
           </li>
           <li>
+            <span onClick={() => scrollToElement("work")}>Work</span>
+          </li>
+          <li>
             <span onClick={() => scrollToElement("experience")}>
               Experience
             </span>
           </li>
-          <li>
-            <span onClick={() => scrollToElement("work")}>Work</span>
-          </li>
         </ul>
       </nav>
       <div>
-        <button className="contact-btn">
+        <button className="button-transparent contact-btn">
           <span onClick={() => scrollToElement("contact")}>Contact</span>
         </button>
       </div>

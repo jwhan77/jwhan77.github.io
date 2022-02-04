@@ -23,11 +23,11 @@ section {
   background-color: #fdf0e9;
 }
 
-.experience {
+.work {
   background-color: #28293e;
 }
 
-.work {
+.experience {
   background-color: #fdf0e9;
 }
 
@@ -45,6 +45,22 @@ section {
   padding: 18px 22px;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.button-transparent {
+  font-family: Epilogue;
+  border-radius: 6px;
+  border: 1px white solid;
+  background-color: #28293e;
+  margin-left: 40px;
+  cursor: pointer;
+  padding: 15px 20px;
+}
+
+.button-transparent span {
+  font-size: 16px;
+  font-weight: 800;
+  color: #fff;
 }
 
 .reveal {

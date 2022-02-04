@@ -28,18 +28,6 @@ nav ul li span {
 }
 
 .navbar .contact-btn {
-  font-family: Epilogue;
-  height: 48px;
   width: 138px;
-  border-radius: 6px;
-  border: 1px white solid;
-  background-color: #28293e;
   margin-left: 40px;
-}
-
-.navbar .contact-btn span {
-  font-size: 16px;
-  font-weight: 800;
-  color: white;
-  cursor: pointer;
 }
