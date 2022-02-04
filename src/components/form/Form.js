@@ -15,7 +15,7 @@ const Form = () => {
         Thanks for contacting me!
       </div>
       {!state.succeeded && (
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="reveal">
           <div className="txt-1">Get in touch</div>
           <div>
             <label htmlFor="email"></label>

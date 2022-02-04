@@ -80,12 +80,15 @@ form button.button-orange {
   opacity: 0;
   transition: 1s all ease;
   position: absolute;
+  top: 0;
+  z-index: -1;
 }
 
 .submitted.active {
   position: relative;
   transform: translateY(0);
   opacity: 1;
+  z-index: 1;
 }
 
 .submitted img {
