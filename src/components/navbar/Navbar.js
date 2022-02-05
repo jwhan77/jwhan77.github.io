@@ -17,9 +17,7 @@ const Navbar = () => {
             <span onClick={() => scrollToElement("work")}>Work</span>
           </li>
           <li>
-            <span onClick={() => scrollToElement("experience")}>
-              Experience
-            </span>
+            <span onClick={() => scrollToElement("experience")}>Skills</span>
           </li>
         </ul>
       </nav>

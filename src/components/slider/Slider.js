@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Project from "../project/Project";
 
 import "./Slider.css";
 
@@ -73,7 +74,7 @@ const Slider = () => {
         <div className="slider">
           <ul>
             <li className={liClassList.join(" ")} id="#1">
-              1
+              <Project type="Web" title="Portfolio" />
             </li>
             <li className={liClassList.join(" ")} id="#2">
               2

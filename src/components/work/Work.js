@@ -16,9 +16,7 @@ const Work = () => {
           </button>
         </div>
       </div>
-      <div className="content">
-        <Slider />
-      </div>
+      <div className="content">{/* <Slider /> */}</div>
     </div>
   );
 };

@@ -1,0 +1,80 @@
+.skills-container {
+  width: 100%;
+  padding: 0px 100px;
+  font-family: Epilogue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-content,
+.skills-img-div {
+  width: 50%;
+}
+
+.skills-img-div img {
+  width: 80%;
+  max-width: 450px;
+}
+
+.skills-content {
+  text-align: left;
+}
+
+.skills-content .title {
+  font-size: 16px;
+  color: #ef6d58;
+}
+
+.skills-content .txt-1 {
+  font-size: 48px;
+  color: #391400;
+  font-weight: bold;
+  margin: 25px auto;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9e5da;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 20px;
+  max-width: 460px;
+  height: 310px;
+  overflow-y: auto;
+}
+
+/* MySkill */
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.skill img {
+  width: 50%;
+}
+
+.skill.orange-bg {
+  background-color: #ef6d58;
+}
+
+.skill.orange-bg img {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(3deg) brightness(108%)
+    contrast(102%);
+}
+
+.skill.white-bg {
+  background-color: #fff;
+}
+
+.skill.white-bg img {
+  filter: invert(8%) sepia(60%) saturate(2517%) hue-rotate(14deg)
+    brightness(100%) contrast(102%);
+}

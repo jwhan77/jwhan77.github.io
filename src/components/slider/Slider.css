@@ -24,11 +24,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 300px;
   flex-shrink: 0;
 }
 
-.slider li:nth-child(1) {
+/* .slider li:nth-child(1) {
   background: #111;
 }
 .slider li:nth-child(2) {
@@ -45,7 +44,7 @@
 }
 .slider li:nth-child(6) {
   background: #666;
-}
+} */
 
 .slider-nav .prev,
 .slider-nav .next {
