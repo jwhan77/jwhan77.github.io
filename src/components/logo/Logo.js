@@ -6,7 +6,12 @@ import polygon from "./polygon-1_2x.svg";
 
 const Logo = () => {
   return (
-    <div className="logo">
+    <div
+      className="logo"
+      onClick={() =>
+        document.getElementById("intro").scrollIntoView({ behavior: "smooth" })
+      }
+    >
       <div
         className="polygon-bg"
         style={{ backgroundImage: `url(${polygon2x})` }}

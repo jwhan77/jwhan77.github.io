@@ -42,7 +42,7 @@
   border-radius: 10px;
   padding: 20px;
   gap: 20px;
-  max-width: 460px;
+  max-width: 400px;
   height: 310px;
   overflow-y: auto;
 }
@@ -52,13 +52,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 
 .skill img {
-  width: 50%;
+  width: 40%;
+  transition: transform 0.3s;
+}
+
+.skill:hover img {
+  transform: scale(1.2);
+}
+
+.skill .bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 12px;
+  display: none;
+}
+
+.skill:hover .bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill.orange-bg {
@@ -77,4 +99,15 @@
 .skill.white-bg img {
   filter: invert(8%) sepia(60%) saturate(2517%) hue-rotate(14deg)
     brightness(100%) contrast(102%);
+}
+
+.reveal-top {
+  transform: translateY(-50px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal-top.active {
+  transform: translateY(0);
+  opacity: 1;
 }

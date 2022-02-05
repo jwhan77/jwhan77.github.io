@@ -5,6 +5,10 @@ import webdev from "./undraw_proud_coder_re_exuy.svg";
 import "./Main.css";
 
 const Main = () => {
+  const scrollToElement = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="main">
       <div className="main-intro">
@@ -17,10 +21,7 @@ const Main = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
-        <div
-          className="button-orange"
-          onClick={() => (window.location.href = "#work")}
-        >
+        <div className="button-orange" onClick={() => scrollToElement("work")}>
           SEE MY WORK
         </div>
       </div>

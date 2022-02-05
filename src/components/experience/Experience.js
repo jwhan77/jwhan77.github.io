@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import pic from "./pic.svg";
 
@@ -35,6 +35,37 @@ const skillList = [
 const orangeBG = [0, 2, 5, 7, 8, 10];
 
 const Experience = () => {
+  useEffect(() => {
+    let container = document.getElementById("container");
+    container.addEventListener("scroll", () => {
+      const revealElementFromTop = () => {
+        let reveals = document.querySelectorAll(".reveal-top");
+
+        let windowHeight = window.innerHeight;
+        let skillSectionTop = document
+          .getElementById("experience")
+          .getBoundingClientRect().top;
+        let elementVisible = 300;
+
+        if (skillSectionTop < windowHeight - elementVisible) {
+          let index = 0;
+          let revealInterval = setInterval(() => {
+            reveals[index].classList.add("active");
+            index++;
+            if (index >= reveals.length) {
+              clearInterval(revealInterval);
+            }
+          }, 100);
+        } else {
+          for (let i = 0; i < reveals.length; i++) {
+            reveals[i].classList.remove("active");
+          }
+        }
+      };
+      revealElementFromTop();
+    });
+  }, []);
+
   return (
     <div className="skills-container">
       <div className="skills-img-div">
@@ -60,10 +91,10 @@ const Experience = () => {
 
 const MySkill = ({ skill, img, ...props }) => {
   return (
-    <div className={`skill ${props.className}`}>
+    <div className={`skill reveal-top ${props.className}`}>
       <img src={img} alt="" />
+      <div className="bg">{skill}</div>
     </div>
   );
 };
-
 export default Experience;
