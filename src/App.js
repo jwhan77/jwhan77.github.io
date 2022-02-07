@@ -47,9 +47,8 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <div className="container" id="container">
-        <Header />
-
         <section className="intro" id="intro">
           <Main />
         </section>

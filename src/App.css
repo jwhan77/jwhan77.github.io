@@ -8,6 +8,22 @@
   scroll-behavior: smooth;
 }
 
+.container::-webkit-scrollbar {
+  width: 5px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: #32334c;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: #32334c;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+  background: #28293e;
+}
+
 section {
   height: 100vh;
   display: flex;
