@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 0px 100px;
@@ -36,6 +36,8 @@
   width: 50%;
   height: 340px;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .main-images .bg-oval {
@@ -45,12 +47,81 @@
   border-radius: 50%;
   position: absolute;
   top: 0;
-  left: calc(50% - 205px);
 }
 
 .main-images .developer {
+  min-width: 500px;
+  max-width: 560px;
   width: 80%;
   position: absolute;
   top: 10px;
-  left: 50px;
+}
+
+@media (max-width: 1366px) {
+  .main-intro .txt-1 {
+    font-size: 34px;
+    line-height: 48px;
+    margin: 20px auto;
+  }
+
+  .main-images .bg-oval {
+    width: 320px;
+    height: 320px;
+  }
+
+  .main-images .developer {
+    min-width: 400px;
+  }
+}
+
+@media (max-width: 960px) {
+  .main {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  .main-images,
+  .main-intro {
+    width: 100%;
+  }
+
+  .main-images {
+    order: 1;
+  }
+
+  .main-images .developer {
+    max-width: 420px;
+    width: 75%;
+  }
+
+  .main-intro {
+    order: 2;
+    max-width: 520px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    padding: 0 30px;
+  }
+  .main-images {
+    height: 300px;
+  }
+
+  .main-images .bg-oval {
+    width: 260px;
+    height: 260px;
+  }
+
+  .main-images .developer {
+    min-width: 300px;
+  }
+  .main-intro .txt-1 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .main-intro .txt-2 {
+    line-height: 28px;
+  }
 }

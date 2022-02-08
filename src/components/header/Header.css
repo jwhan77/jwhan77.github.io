@@ -21,3 +21,9 @@ header {
     padding: 0 50px;
   }
 }
+
+@media (max-width: 500px) {
+  header {
+    padding: 0 30px;
+  }
+}
