@@ -72,17 +72,19 @@ const Experience = () => {
         <img src={pic} alt="" />
       </div>
       <div className="skills-content">
-        <div className="title">SKILLS</div>
-        <div className="txt-1">SKILLS</div>
-        <div className="skills">
-          {skillList.map((skill, i) => (
-            <MySkill
-              key={i}
-              skill={skill.skill}
-              img={skill.img}
-              className={orangeBG.indexOf(i) !== -1 ? "orange-bg" : "white-bg"}
-            />
-          ))}
+        <div>
+          <div className="title">SKILLS</div>
+          <div className="txt-1">SKILLS</div>
+          <div className="skills">
+            {skillList.map((skill, i) => (
+              <MySkill
+                key={i}
+                skill={skill.skill}
+                img={skill.img}
+                // className={orangeBG.indexOf(i) !== -1 ? "orange-bg" : "white-bg"}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>
@@ -91,7 +93,7 @@ const Experience = () => {
 
 const MySkill = ({ skill, img, ...props }) => {
   return (
-    <div className={`skill reveal-top ${props.className}`}>
+    <div className="skill reveal-top">
       <img src={img} alt="" />
       <div className="bg">{skill}</div>
     </div>
