@@ -68,3 +68,44 @@
 .email .bg-oval img {
   width: 50%;
 }
+
+@media (max-width: 1366px) {
+  .contact-me-txt {
+    padding-left: 50px;
+  }
+
+  .contact-me-txt .txt-1 {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 26px;
+  }
+}
+
+@media (max-width: 960px) {
+  .get-in-touch,
+  .contact-me-txt {
+    padding-left: 0px;
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .contact-me {
+    flex-direction: column;
+    padding: 0 50px;
+  }
+
+  .get-in-touch {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contact-me {
+    padding: 0 30px;
+  }
+
+  .contact-me-txt .txt-1 {
+    font-size: 42px;
+    margin-bottom: 24px;
+  }
+}

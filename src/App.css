@@ -103,3 +103,9 @@ section {
     height: 850px;
   }
 }
+
+@media (max-width: 960px) and (max-height: 950px) {
+  .contact {
+    height: 950px;
+  }
+}
