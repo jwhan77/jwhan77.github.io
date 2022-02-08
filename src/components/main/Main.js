@@ -21,8 +21,16 @@ const Main = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </div>
-        <div className="button-orange" onClick={() => scrollToElement("work")}>
-          SEE MY WORK
+        <div
+          className="button-orange"
+          // onClick={() =>
+          //   window.open(
+          //     "https://drive.google.com/file/d/13pFg4E7UOV8sRYt7BubEp2K3Av-zIULs/view?usp=sharing",
+          //     "_blank"
+          //   )
+          // }
+        >
+          Resume (PDF)
         </div>
       </div>
       <div className="main-images">

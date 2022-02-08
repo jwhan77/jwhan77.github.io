@@ -96,3 +96,9 @@ section {
     height: 800px;
   }
 }
+
+@media (max-width: 960px) and (max-height: 850px) {
+  .about {
+    height: 850px;
+  }
+}
