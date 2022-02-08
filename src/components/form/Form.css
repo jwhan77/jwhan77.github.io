@@ -105,3 +105,12 @@ form button.button-orange {
     top: 0px;
   }
 }
+
+@media (max-width: 500px) {
+  .submitted {
+    font-size: 18px;
+  }
+  .submitted img {
+    min-width: 100px;
+  }
+}

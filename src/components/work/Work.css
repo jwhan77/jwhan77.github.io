@@ -1,3 +1,8 @@
+.work-container {
+  width: 100%;
+  display: flex;
+}
+
 .latest-work {
   width: 100%;
   display: flex;
@@ -36,4 +41,38 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+@media (max-width: 960px) {
+  .latest-work {
+    padding: 0 50px;
+  }
+
+  .latest-work .name,
+  .latest-work .work-title {
+    padding: 0;
+    width: 100%;
+  }
+
+  .work-title {
+    flex-direction: column;
+  }
+
+  .work-title .txt-1 {
+    margin-bottom: 30px;
+  }
+
+  .work-title .button-transparent {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .latest-work {
+    padding: 0 30px;
+  }
+
+  .work-title .txt-1 {
+    font-size: 46px;
+  }
 }
