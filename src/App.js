@@ -64,6 +64,9 @@ function App() {
         <section className="contact" id="contact">
           <Contact />
         </section>
+        <div className="copyright">
+          © 2022, Developed by Jungwon Han | Designed by laaqiq
+        </div>
       </div>
     </div>
   );
