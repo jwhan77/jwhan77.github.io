@@ -3,9 +3,16 @@ import Project from "../project/Project";
 
 import "./Slider.css";
 
-const Slider = () => {
+import img1 from "./img1.jpg";
+import img2 from "./img2.jpg";
+import img3 from "./img3.jpg";
+
+import arrowIcon from "./arrow.svg";
+
+const items = ["1", "2", "3"];
+
+const Slider = ({ projects }) => {
   const [liClassList, setLiClassList] = useState(["slider-item"]);
-  const [items, setItems] = useState(["1", "2", "3", "4", "5", "6"]);
 
   useEffect(() => {
     init();
@@ -69,32 +76,27 @@ const Slider = () => {
   };
 
   return (
-    <div className="main">
+    <div className="slider-main">
       <div className="slider-container">
         <div className="slider">
           <ul>
             <li className={liClassList.join(" ")} id="#1">
-              <Project type="Web" title="Portfolio" />
+              <Project type="Web" title="Portfolio" imgUrl={img1} />
             </li>
             <li className={liClassList.join(" ")} id="#2">
-              2
+              <Project type="Web3" title="Coming soon..." imgUrl={img2} />
             </li>
             <li className={liClassList.join(" ")} id="#3">
-              3
-            </li>
-            <li className={liClassList.join(" ")} id="#4">
-              4
-            </li>
-            <li className={liClassList.join(" ")} id="#5">
-              5
-            </li>
-            <li className={liClassList.join(" ")} id="#6">
-              6
+              <Project type="Web3" title="Coming soon..." imgUrl={img3} />
             </li>
           </ul>
           <div className="slider-nav">
-            <div className="prev" onClick={handlePrev}></div>
-            <div className="next" onClick={handleNext}></div>
+            <div className="prev" onClick={handlePrev}>
+              <img src={arrowIcon} alt="" />
+            </div>
+            <div className="next" onClick={handleNext}>
+              <img src={arrowIcon} alt="" />
+            </div>
           </div>
         </div>
       </div>

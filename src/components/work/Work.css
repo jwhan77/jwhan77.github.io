@@ -46,6 +46,7 @@
 @media (max-width: 960px) {
   .latest-work {
     padding: 0 50px;
+    width: calc(100% - 100px);
   }
 
   .latest-work .name,
@@ -65,11 +66,16 @@
   .work-title .button-transparent {
     margin-left: 0px;
   }
+
+  .latest-work .content {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 500px) {
   .latest-work {
     padding: 0 30px;
+    width: calc(100% - 60px);
   }
 
   .work-title .txt-1 {

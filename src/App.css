@@ -109,3 +109,9 @@ section {
     height: 950px;
   }
 }
+
+@media (max-width: 960px) and (max-height: 700px) {
+  .work {
+    height: 700px;
+  }
+}

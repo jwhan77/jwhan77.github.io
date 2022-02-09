@@ -12,12 +12,19 @@ const Work = () => {
         <div className="work-title">
           <div className="txt-1">Latest Work</div>
           <div>
-            <button className="button-transparent">
+            <button
+              className="button-transparent"
+              onClick={() =>
+                window.open("https://github.com/jwhan77", "_blank")
+              }
+            >
               <span>EXPLORE MORE</span>
             </button>
           </div>
         </div>
-        <div className="content">{/* <Slider /> */}</div>
+        <div className="content">
+          <Slider />
+        </div>
       </div>
     </div>
   );

@@ -1,7 +1,8 @@
 .my-project-container {
   display: flex;
   flex-direction: column;
-  width: calc(100% - 64px);
+  width: calc(100% - 32px);
+  max-width: 400px;
   height: 100%;
   justify-content: end;
   font-family: Epilogue;
@@ -10,6 +11,12 @@
 .my-project {
   text-align: left;
   padding: 48px;
+  height: 100%;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 16px;
 }
 
 .my-project .type {
@@ -29,4 +36,20 @@
   font-size: 40px;
   font-weight: bold;
   margin-top: 20px;
+}
+
+@media (max-width: 1366px) {
+  .my-project-container {
+    max-width: 320px;
+  }
+
+  .my-project .title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .my-project-container {
+    max-width: 340px;
+  }
 }
