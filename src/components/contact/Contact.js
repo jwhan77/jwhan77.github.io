@@ -30,7 +30,7 @@ const Contact = () => {
             <div className="bg-oval">
               <img src={emailIcon} alt="" />
             </div>
-            <span>gksjeongw96@gmail.com</span>
+            <span>jungwon.hannnnn@gmail.com</span>
           </div>
         </div>
       </div>

@@ -81,7 +81,12 @@ const Slider = ({ projects }) => {
         <div className="slider">
           <ul>
             <li className={liClassList.join(" ")} id="#1">
-              <Project type="Web" title="Portfolio" imgUrl={img1} />
+              <Project
+                type="Web"
+                title="Portfolio"
+                imgUrl={img1}
+                demoUrl="https://github.com/jwhan77/portfolio-website"
+              />
             </li>
             <li className={liClassList.join(" ")} id="#2">
               <Project type="Web3" title="Coming soon..." imgUrl={img2} />

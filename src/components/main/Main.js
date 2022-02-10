@@ -12,7 +12,7 @@ const Main = () => {
   return (
     <div className="main">
       <div className="main-intro">
-        <div className="name">Jungwon Han</div>
+        <div className="name">Jungwon (Jade) Han</div>
         <div className="txt-1">
           <p>Front end developer</p>
           <p>based in Korea</p>

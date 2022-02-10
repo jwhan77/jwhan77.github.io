@@ -17,8 +17,8 @@
         {
             "id": 2,
             "name": "twitter",
-            "url": "",
-            "visible": false,
+            "url": "https://twitter.com/hellojadev",
+            "visible": true,
             "iconUrl": "/assets/icons/twitter.svg"
         }
     ]
