@@ -114,13 +114,13 @@ section {
 }
 
 @media (max-width: 960px) and (max-height: 850px) {
-  .about,
   .experience {
     height: 850px;
   }
 }
 
 @media (max-width: 960px) and (max-height: 950px) {
+  .about,
   .contact {
     height: 950px;
   }

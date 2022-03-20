@@ -16,8 +16,8 @@ const Contact = () => {
         <div className="title">CONTACT</div>
         <div className="txt-1">Contact Me</div>
         <div className="txt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Interested in working with me? I am open for your ideas and questions.
+          I will get back to you within 3-5 business days.
         </div>
         <div className="contact-information">
           <div className="location">

@@ -84,8 +84,8 @@
 }
 
 .about-text .txt-2 p:first-child {
-  font-size: 20px;
-  line-height: 32px;
+  font-size: 16px;
+  line-height: 28px;
   margin-bottom: 16px;
 }
 
@@ -177,16 +177,6 @@
     line-height: 52px;
     max-width: 380px;
   }
-
-  .about-text .txt-2 p:first-child {
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  /* .about-text .txt-2 p:last-child {
-    font-size: 16px;
-    line-height: 28px;
-  } */
 }
 
 @media (max-width: 500px) {

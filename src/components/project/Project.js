@@ -2,10 +2,10 @@ import React from "react";
 
 import "./Project.css";
 
-const Project = ({ type, title, demoUrl, imgUrl }) => {
+const Project = ({ type, title, demoUrl, imgUrl, className }) => {
   return (
     <div
-      className="my-project-container"
+      className={`my-project-container ${className ? className : ""}`}
       onClick={() => window.open(demoUrl, "_blank")}
     >
       <div className="my-project" style={{ backgroundImage: `url(${imgUrl})` }}>

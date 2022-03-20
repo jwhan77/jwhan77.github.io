@@ -9,6 +9,11 @@
   cursor: pointer;
 }
 
+.my-project-container.deactivated {
+  opacity: 0.6;
+  cursor: auto;
+}
+
 .my-project {
   text-align: left;
   padding: 48px;

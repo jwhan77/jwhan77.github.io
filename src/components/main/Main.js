@@ -14,23 +14,19 @@ const Main = () => {
       <div className="main-intro">
         <div className="name">Jungwon (Jade) Han</div>
         <div className="txt-1">
-          <p>Front end developer</p>
+          <p>Frontend web developer</p>
           <p>based in Korea</p>
         </div>
         <div className="txt-2">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Developing a website is my passion. I enjoy turning various ideas into
+          reality. Have a great idea but need help? Send me a message and let's
+          chat.
         </div>
         <div
           className="button-orange"
-          // onClick={() =>
-          //   window.open(
-          //     "https://drive.google.com/file/d/13pFg4E7UOV8sRYt7BubEp2K3Av-zIULs/view?usp=sharing",
-          //     "_blank"
-          //   )
-          // }
+          onClick={() => scrollToElement("contact")}
         >
-          Resume (PDF)
+          Contact
         </div>
       </div>
       <div className="main-images">

@@ -89,10 +89,20 @@ const Slider = ({ projects }) => {
               />
             </li>
             <li className={liClassList.join(" ")} id="#2">
-              <Project type="Web3" title="Coming soon..." imgUrl={img2} />
+              <Project
+                type="Web"
+                title="Coming soon..."
+                imgUrl={img2}
+                className="deactivated"
+              />
             </li>
             <li className={liClassList.join(" ")} id="#3">
-              <Project type="Web3" title="Coming soon..." imgUrl={img3} />
+              <Project
+                type="Web"
+                title="Coming soon..."
+                imgUrl={img3}
+                className="deactivated"
+              />
             </li>
           </ul>
           <div className="slider-nav">

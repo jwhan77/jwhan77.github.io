@@ -30,13 +30,16 @@ const About = () => {
       <div className="about-text">
         <div className="name">Jungwon (Jade) Han</div>
         <div className="txt">
-          <div className="txt-1">Lorem ipsum dolor sit</div>
+          <div className="txt-1">About me</div>
           <div className="txt-2">
-            <p>Lorem ipsum dolor sit amet</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              I have over 3 years of work experience as a web developer and a
+              bachelor's degree in Computer Science. I'm interested in learning
+              state-of-the-art technologies and perpetually working on improving
+              my skills. I want to make a meaningful digital product helping
+              people’s lives better.
             </p>
+            <p>Connect with me on social media</p>
           </div>
         </div>
         <div className="about-sns">

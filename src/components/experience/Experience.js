@@ -14,6 +14,7 @@ import nextIcon from "./icons/nextdotjs.svg";
 import tsIcon from "./icons/typescript.svg";
 import pyIcon from "./icons/python.svg";
 import flaskIcon from "./icons/flask.svg";
+import plusIcon from "./icons/plus.svg";
 
 import "./Experience.css";
 
@@ -27,9 +28,10 @@ const skillList = [
   { skill: "Bootstrap", img: bootstrapIcon },
   { skill: "Tailwind CSS", img: tailwindIcon },
   { skill: "Next.js", img: nextIcon },
-  { skill: "TypeScript", img: tsIcon },
+  // { skill: "TypeScript", img: tsIcon },
   { skill: "Python", img: pyIcon },
   { skill: "Flask", img: flaskIcon },
+  { skill: "More", img: plusIcon },
 ];
 
 const orangeBG = [0, 2, 5, 7, 8, 10];
