@@ -39,7 +39,7 @@ const About = () => {
               my skills. I want to make a meaningful digital product helping
               people’s lives better.
             </p>
-            <p>Connect with me on social media</p>
+            <p>Find me on social media</p>
           </div>
         </div>
         <div className="about-sns">

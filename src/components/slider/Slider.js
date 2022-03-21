@@ -93,7 +93,7 @@ const Slider = ({ projects }) => {
                 type="Web"
                 title="Coming soon..."
                 imgUrl={img2}
-                className="deactivated"
+                deactivated
               />
             </li>
             <li className={liClassList.join(" ")} id="#3">
@@ -101,7 +101,7 @@ const Slider = ({ projects }) => {
                 type="Web"
                 title="Coming soon..."
                 imgUrl={img3}
-                className="deactivated"
+                deactivated
               />
             </li>
           </ul>
