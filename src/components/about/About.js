@@ -33,11 +33,10 @@ const About = () => {
           <div className="txt-1">About me</div>
           <div className="txt-2">
             <p>
-              I have over 3 years of work experience as a web developer and a
-              bachelor's degree in Computer Science. I'm interested in learning
-              state-of-the-art technologies and perpetually working on improving
-              my skills. I want to make a meaningful digital product helping
-              people’s lives better.
+              I have over 3 years of work experience as a frontend developer and a
+              bachelor's degree in Computer Science. 
+              I'm passionate about learning state-of-the-art technologies and constantly improving
+              my skills. 
             </p>
             <p>Find me on social media</p>
           </div>

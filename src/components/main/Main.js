@@ -18,9 +18,7 @@ const Main = () => {
           <p>based in Korea</p>
         </div>
         <div className="txt-2">
-          Developing a website is my passion. I enjoy turning various ideas into
-          reality. Have a great idea but need help? Send me a message and let's
-          chat.
+          Frontend developer who is proficient in React, JavaScript(ES6+), HTML5 and CSS3.
         </div>
         <div
           className="button-orange"
