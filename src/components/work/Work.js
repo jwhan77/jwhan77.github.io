@@ -12,14 +12,11 @@ const Work = () => {
         <div className="work-title">
           <div className="txt-1">Latest Work</div>
           <div>
-            <button
-              className="button-transparent"
-              onClick={() =>
-                window.open("https://github.com/jwhan77", "_blank")
-              }
-            >
-              <span>EXPLORE MORE</span>
-            </button>
+            <a href="https://www.codingwithjade.com/" target="_blank">
+              <button className="button-transparent">
+                <span>EXPLORE MORE</span>
+              </button>
+            </a>
           </div>
         </div>
         <div className="content">
