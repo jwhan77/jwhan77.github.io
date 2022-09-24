@@ -32,7 +32,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div>
-            <a href="https://www.codingwithjade.com/" target="_blank">
+            <a href="https://jwdevv.tistory.com/" target="_blank">
               <button className="button-transparent contact-btn">
                 <span>Blog</span>
               </button>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <li onClick={() => scrollToElementMobile("contact")}>
               <span>Contact</span>
             </li>
-            <a href="https://www.codingwithjade.com/" target="_blank">
+            <a href="https://jwdevv.tistory.com/" target="_blank">
               <li>
                   <span>Blog</span>
               </li>

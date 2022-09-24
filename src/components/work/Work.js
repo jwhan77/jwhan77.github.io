@@ -12,7 +12,7 @@ const Work = () => {
         <div className="work-title">
           <div className="txt-1">Latest Work</div>
           <div>
-            <a href="https://www.codingwithjade.com/" target="_blank">
+            <a href="https://jwdevv.tistory.com/" target="_blank">
               <button className="button-transparent">
                 <span>EXPLORE MORE</span>
               </button>
