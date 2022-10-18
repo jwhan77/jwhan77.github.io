@@ -85,7 +85,7 @@ const Slider = ({ projects }) => {
                 type="Web"
                 title="Portfolio"
                 imgUrl={img1}
-                demoUrl="https://github.com/jwhan77/portfolio-website"
+                demoUrl="https://github.com/jwhan77/jwhan77.github.io"
               />
             </li>
             <li className={liClassList.join(" ")} id="#2">

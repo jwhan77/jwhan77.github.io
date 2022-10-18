@@ -38,7 +38,7 @@
 .avatar-bg {
   width: 175px;
   height: 175px;
-  background-color: #b550f8;
+  background-color: var(--purple);
   border-radius: 50%;
   position: absolute;
   left: 30%;
@@ -62,7 +62,7 @@
 
 .about-text .name {
   font-size: 16px;
-  color: #ef6d58;
+  color: var(--orange);
   margin-bottom: 20px;
 }
 
@@ -74,12 +74,12 @@
   font-weight: 900;
   font-size: 56px;
   line-height: 64px;
-  color: #391400;
+  color: var(--brown);
   margin-bottom: 26px;
 }
 
 .about-text .txt-2 {
-  color: #391400;
+  color: var(--brown);
   margin-bottom: 34px;
 }
 
@@ -105,7 +105,7 @@
 .sns-oval {
   width: 48px;
   height: 48px;
-  background-color: #ef6d58;
+  background-color: var(--orange);
   border-radius: 50%;
   display: flex;
   justify-content: center;

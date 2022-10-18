@@ -12,19 +12,20 @@ const Main = () => {
   return (
     <section className="main">
       <div className="main-intro">
-        <div className="name">Jungwon (Jade) Han</div>
+        <div className="name">Jungwon Han</div>
         <div className="txt-1">
-          <p>Frontend web developer</p>
-          <p>based in Korea</p>
+          <p>Frontend Web Developer</p>
         </div>
         <div className="txt-2">
-          Frontend developer who is proficient in React, JavaScript(ES6+), HTML5 and CSS3.
+          Frontend Engineer who is proficient in React, JavaScript, HTML and CSS. <br/><br/>
+          Web development is my passion. I enjoy turning various idea into reality. <br/>
+          I'm looking for a new opportunity in Vancouver, Canada.
         </div>
         <div
           className="button-orange"
           onClick={() => scrollToElement("contact")}
         >
-          Contact
+          Contact Me
         </div>
       </div>
       <div className="main-images">

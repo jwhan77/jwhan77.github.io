@@ -22,12 +22,12 @@
 .contact-me-txt .title {
   font-size: 16px;
   line-height: 32px;
-  color: #ef6d58;
+  color: var(--orange);
   margin-bottom: 20px;
 }
 
 .contact-me-txt .txt-1 {
-  color: #fff;
+  color: var(--white);
   font-size: 56px;
   line-height: 64px;
   margin-bottom: 28px;
@@ -35,7 +35,7 @@
 }
 
 .contact-me-txt .txt-2 {
-  color: #fff;
+  color: var(--white);
   font-size: 16px;
   line-height: 32px;
   max-width: 470px;
@@ -44,17 +44,18 @@
 }
 
 .contact-information .location,
-.contact-information .email {
+.contact-information .email,
+.contact-information .linkedin {
   display: flex;
   align-items: center;
-  color: #fff;
+  color: var(--white);
   margin-bottom: 20px;
 }
 
 .contact-information .bg-oval {
   width: 48px;
   height: 48px;
-  background-color: #ef6d58;
+  background-color: var(--white);
   border-radius: 50%;
   display: flex;
   justify-content: center;

@@ -28,8 +28,8 @@
 .my-project .type {
   height: 38px;
   border-radius: 38px;
-  background-color: #fff;
-  color: #391400;
+  background-color: var(--white);
+  color: var(--brown);
   font-size: 16px;
   width: fit-content;
   display: flex;

@@ -14,7 +14,7 @@
 }
 
 .latest-work .name {
-  color: #ef6d58;
+  color: var(--orange);
   font-size: 16px;
   margin-bottom: 20px;
   width: calc(100% - 240px);
@@ -31,7 +31,7 @@
 }
 
 .work-title .txt-1 {
-  color: #fff;
+  color: var(--white);
   font-size: 56px;
   font-weight: 900;
 }

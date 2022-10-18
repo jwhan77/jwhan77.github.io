@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Epilogue:400,700,800,900");
 
+:root {
+  --dark-bg: #28293e;
+  --light-bg: #fdf0e9;
+  --less-light-bg: #f9e5da;
+  --orange: #ef6d58;
+  --brown: #391400;
+  --purple: #b550f8;
+  --navy: #32334c;
+  --white: #ffffff;
+  --black-06: rgba(0, 0, 0, 0.6);
+}
+
 body {
   margin: 0;
   padding: 0;

@@ -14,11 +14,11 @@
 
 .main-intro .name {
   font-size: 16px;
-  color: #ef6d58;
+  color: var(--orange);
 }
 
 .main-intro .txt-1 {
-  color: #fff;
+  color: var(--white);
   font-size: 48px;
   font-weight: 900;
   margin: 24px auto;
@@ -27,7 +27,7 @@
 
 .main-intro .txt-2 {
   font-size: 16px;
-  color: #fff;
+  color: var(--white);
   line-height: 32px;
   margin-bottom: 34px;
 }

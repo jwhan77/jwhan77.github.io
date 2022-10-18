@@ -20,7 +20,7 @@
 }
 
 .navbar nav ul li span {
-  color: #fff;
+  color: var(--white);
   padding: 0 40px;
   font-size: 1.1em;
   font-family: Epilogue;
@@ -44,7 +44,7 @@
 .bar3 {
   width: 25px;
   height: 2px;
-  background-color: #fff;
+  background-color: var(--white);
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -72,7 +72,7 @@
     width: 0px;
     display: flex;
     position: fixed;
-    background-color: #32334c;
+    background-color: var(--navy);
     right: 0;
     top: 0;
     height: 100%;
@@ -101,13 +101,13 @@
     align-items: center;
     padding-left: 50px;
     font-family: Epilogue;
-    color: #fff;
+    color: var(--white);
     font-size: 24px;
     cursor: pointer;
   }
 
   .mobile-navbar nav ul li:hover {
-    background-color: #28293e;
+    background-color: var(--dark-bg);
   }
 
   .menu-icon {

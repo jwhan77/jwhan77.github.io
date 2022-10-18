@@ -21,7 +21,7 @@ main::-webkit-scrollbar-thumb {
 }
 
 main::-webkit-scrollbar-thumb:hover {
-  background: #28293e;
+  background: var(--dark-bg);
 }
 
 section {
@@ -33,28 +33,28 @@ section {
 }
 
 section.intro {
-  background-color: #28293e;
+  background-color: var(--dark-bg);
 }
 
 section.about {
-  background-color: #fdf0e9;
+  background-color: var(--light-bg);
 }
 
 section.work {
-  background-color: #28293e;
+  background-color: var(--dark-bg);
 }
 
 section.experience {
-  background-color: #fdf0e9;
+  background-color: var(--light-bg);
 }
 
 section.contact {
-  background-color: #28293e;
+  background-color: var(--dark-bg);
 }
 
 .button-orange {
-  background-color: #ef6d58;
-  color: #ffffff;
+  background-color: var(--orange);
+  color: var(--white);
   font-family: Epilogue;
   font-weight: bold;
   font-size: 14px;
@@ -68,7 +68,7 @@ section.contact {
   font-family: Epilogue;
   border-radius: 6px;
   border: 1px white solid;
-  background-color: #28293e;
+  background-color: var(--dark-bg);
   margin-left: 40px;
   cursor: pointer;
   padding: 15px 20px;
@@ -77,7 +77,7 @@ section.contact {
 .button-transparent span {
   font-size: 16px;
   font-weight: 800;
-  color: #fff;
+  color: var(--white);
 }
 
 .reveal {

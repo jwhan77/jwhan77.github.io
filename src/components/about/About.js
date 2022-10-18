@@ -28,7 +28,7 @@ const About = () => {
         </div>
       </div>
       <div className="about-text">
-        <div className="name">Jungwon (Jade) Han</div>
+        <div className="name">Jungwon Han</div>
         <div className="txt">
           <div className="txt-1">About me</div>
           <div className="txt-2">
