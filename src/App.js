@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 
-import Header from "./components/header/Header";
-import Main from "./components/main/Main";
-import About from "./components/about/About";
-import Experience from "./components/experience/Experience";
-import Work from "./components/work/Work";
-import Contact from "./components/contact/Contact";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import About from "./components/About/About";
+import Experience from "./components/Experience/Experience";
+import Work from "./components/Work/Work";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 import "./App.css";
 
@@ -48,7 +49,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div className="container" id="container">
+      <main id="container">
         <section className="intro" id="intro">
           <Main />
         </section>
@@ -64,10 +65,8 @@ function App() {
         <section className="contact" id="contact">
           <Contact />
         </section>
-        <div className="copyright">
-          © 2022, Developed by Jungwon Han | Designed by laaqiq
-        </div>
-      </div>
+        <Footer />
+      </main>
     </div>
   );
 }

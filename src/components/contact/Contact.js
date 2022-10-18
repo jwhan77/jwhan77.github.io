@@ -1,10 +1,9 @@
 import React from "react";
 
 import locationIcon from "./location.svg";
-import emailIcon from "./email.svg";
 
 import "./Contact.css";
-import Form from "../form/Form";
+import Form from "../Form/Form";
 
 const Contact = () => {
   return (

@@ -10,7 +10,7 @@ const Main = () => {
   };
 
   return (
-    <div className="main">
+    <section className="main">
       <div className="main-intro">
         <div className="name">Jungwon (Jade) Han</div>
         <div className="txt-1">
@@ -31,7 +31,7 @@ const Main = () => {
         <div className="bg-oval"></div>
         <img src={webdev} alt="" className="developer" />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,7 +4,7 @@
   width: calc(100% - 32px);
   max-width: 400px;
   height: 100%;
-  justify-content: end;
+  justify-content: flex-end;
   font-family: Epilogue;
   cursor: pointer;
 }
@@ -21,7 +21,7 @@
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   border-radius: 16px;
 }
 

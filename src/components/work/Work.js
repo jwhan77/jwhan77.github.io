@@ -1,6 +1,6 @@
 import React from "react";
 
-import Slider from "../slider/Slider";
+import Slider from "../Slider/Slider";
 
 import "./Work.css";
 
@@ -12,7 +12,7 @@ const Work = () => {
         <div className="work-title">
           <div className="txt-1">Latest Work</div>
           <div>
-            <a href="https://jwdevv.tistory.com/" target="_blank">
+            <a href="https://jwdevv.tistory.com/" target="_blank" rel="noreferrer">
               <button className="button-transparent">
                 <span>EXPLORE MORE</span>
               </button>

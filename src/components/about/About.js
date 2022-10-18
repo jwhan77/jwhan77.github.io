@@ -1,6 +1,6 @@
 import React from "react";
 
-import snsData from "../sns/sns.json";
+import snsData from "../../data/sns.json";
 
 // import aboutImg from "./aboutme.svg";
 import aboutBg from "./aboutbg.svg";

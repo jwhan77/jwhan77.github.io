@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Project from "../project/Project";
+import Project from "../Projects/Project";
 
 import "./Slider.css";
 

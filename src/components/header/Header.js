@@ -1,8 +1,6 @@
 import React from "react";
-import Logo from "../logo/Logo";
-import Navbar from "../navbar/Navbar";
-
-import wave from "./wave.svg";
+import Logo from "../Logo/Logo";
+import Navbar from "../Navbar/Navbar";
 
 import "./Header.css";
 
