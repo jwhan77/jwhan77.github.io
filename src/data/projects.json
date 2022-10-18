@@ -1,6 +1,6 @@
 [
   { "id": 1, "type": "Web", "title": "Portfolio", "imgUrl": "/assets/img1.jpg", "demoUrl": "https://jwhan77.github.io/", "status": "deployed" },
-  { "id": 2, "type": "Web", "title": "Coworking space in Jeju", "imgUrl": "/assets/img3.jpg", "demoUrl": "https://jwhan77.github.io/coworking", "status": "in development" },
+  { "id": 2, "type": "Web", "title": "Coworking space in Jeju", "imgUrl": "/assets/img3.jpg", "demoUrl": "https://github.com/jwhan77/coworking", "status": "in development" },
   { "id": 3, "type": "Blog", "title": "Dev blog", "imgUrl": "/assets/img2.jpg", "demoUrl": "https://jwdevv.tistory.com/", "status": "deployed" },
   { "id": 4, "type": "Blog", "title": "Old Dev blog", "imgUrl": "/assets/img2.jpg", "demoUrl": "https://velog.io/@jwhan", "status": "deployed" },
   { "id": 5, "type": "Web", "title": "Coming soon...", "imgUrl": "/assets/img3.jpg", "demoUrl": "", "status": "scheduled" }
