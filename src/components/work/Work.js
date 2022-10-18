@@ -10,9 +10,9 @@ const Work = () => {
       <div className="latest-work">
         <div className="name">PORTFOLIO</div>
         <div className="work-title">
-          <div className="txt-1">Latest Work</div>
+          <div className="txt-1">Side Projects</div>
           <div>
-            <a href="https://jwdevv.tistory.com/" target="_blank" rel="noreferrer">
+            <a href="https://github.com/jwhan77" target="_blank" rel="noreferrer">
               <button className="button-transparent">
                 <span>EXPLORE MORE</span>
               </button>

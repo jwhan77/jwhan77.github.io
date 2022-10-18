@@ -44,6 +44,11 @@
   margin-top: 20px;
 }
 
+.my-project .in-dev {
+  font-size: 14px;
+  margin-top: 14px;
+}
+
 @media (max-width: 1366px) {
   .my-project-container {
     max-width: 320px;

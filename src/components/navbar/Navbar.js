@@ -25,7 +25,7 @@ const Navbar = () => {
               <span onClick={() => scrollToElement("about")}>About</span>
             </li>
             <li>
-              <span onClick={() => scrollToElement("work")}>Work</span>
+              <span onClick={() => scrollToElement("work")}>Projects</span>
             </li>
             <li>
               <span onClick={() => scrollToElement("experience")}>Skills</span>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <span>About</span>
             </li>
             <li onClick={() => scrollToElementMobile("work")}>
-              <span>Work</span>
+              <span>Projects</span>
             </li>
             <li onClick={() => scrollToElementMobile("experience")}>
               <span>Skills</span>

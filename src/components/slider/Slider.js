@@ -1,17 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Project from "../Projects/Project";
 
-import "./Slider.css";
+import projects from "../../data/projects.json";
 
-import img1 from "./img1.jpg";
-import img2 from "./img2.jpg";
-import img3 from "./img3.jpg";
+import "./Slider.css";
 
 import arrowIcon from "./arrow.svg";
 
-const items = ["1", "2", "3"];
-
-const Slider = ({ projects }) => {
+const Slider = () => {
   const [liClassList, setLiClassList] = useState(["slider-item"]);
 
   useEffect(() => {
@@ -48,7 +44,7 @@ const Slider = ({ projects }) => {
   };
 
   const prev = () => {
-    const sliderLength = items.length;
+    const sliderLength = projects.length;
     const itemList = document.getElementsByClassName("slider-item");
     for (let index = 0; index < itemList.length; index++) {
       let curPos = parseInt(itemList[index].style.order);
@@ -62,7 +58,7 @@ const Slider = ({ projects }) => {
   };
 
   const next = () => {
-    const sliderLength = items.length;
+    const sliderLength = projects.length;
     const itemList = document.getElementsByClassName("slider-item");
     for (let index = 0; index < itemList.length; index++) {
       let curPos = parseInt(itemList[index].style.order);
@@ -80,30 +76,11 @@ const Slider = ({ projects }) => {
       <div className="slider-container">
         <div className="slider">
           <ul>
-            <li className={liClassList.join(" ")} id="#1">
-              <Project
-                type="Web"
-                title="Portfolio"
-                imgUrl={img1}
-                demoUrl="https://github.com/jwhan77/jwhan77.github.io"
-              />
-            </li>
-            <li className={liClassList.join(" ")} id="#2">
-              <Project
-                type="Web"
-                title="Coming soon..."
-                imgUrl={img2}
-                deactivated
-              />
-            </li>
-            <li className={liClassList.join(" ")} id="#3">
-              <Project
-                type="Web"
-                title="Coming soon..."
-                imgUrl={img3}
-                deactivated
-              />
-            </li>
+            {projects.map(project => (
+              <li key={project.id} className={liClassList.join(" ")} id={`#${project.id}`}>
+                <Project {...project} />
+              </li>
+            ))}
           </ul>
           <div className="slider-nav">
             <div className="prev" onClick={handlePrev}>
